@@ -1,1 +1,4 @@
+Python Scripts
+
 InsertToInventory: python script that reads large inventory json (1-3 gb) and inserts each item to mongodb
+TagImagesML: Uses machine learning to tage product images from mongodb and insert a tags array for searching
