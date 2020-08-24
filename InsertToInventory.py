@@ -9,8 +9,8 @@ t0 = time.time()
 
 # Connect to Mongodb client
 client = MongoClient("<access string>")
-db = client["<database"]
-collection = db["collection"]
+db = client["<database>"]
+collection = db["<collection>"]
 
 # ijson parse
 file = open("<file path>", "r")
